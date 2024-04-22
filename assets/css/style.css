@@ -1,0 +1,42 @@
+     /* Style for form container */
+     .wpfcp-form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    /* Style for form labels */
+    .wpfcp-form-label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Style for form inputs */
+    .wpfcp-form-input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+
+    /* Style for submit button */
+    .wpfcp-form-submit {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    /* Clearfix for submit button */
+    .wpfcp-form-submit:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
